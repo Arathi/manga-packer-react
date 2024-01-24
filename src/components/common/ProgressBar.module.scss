@@ -1,0 +1,21 @@
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+
+  .bar {
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #888888;
+  }
+
+  .text {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

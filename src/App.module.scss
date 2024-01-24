@@ -1,0 +1,25 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  width: 360px;
+  height: 800px;
+  top: 8px;
+  left: 8px;
+  padding: 8px;
+
+  border: 1px solid black;
+  border-radius: 8px;
+
+  background-color: #cccccc;
+}
